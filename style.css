@@ -1,0 +1,155 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .sun-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('bg.jpg');
+    opacity: 1;
+  } 
+  .moon-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('bg.jpg');
+    opacity: 0;
+  }
+  canvas {
+    position: relative;
+  }
+
+  .link{
+    width: 200px;
+   min-height: 100px;
+    position: absolute;
+   
+    top:5%;
+    left: 20px;
+    z-index: 1000;
+
+  }
+  .link button{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: blue;
+  }
+  .link a{
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10PX 16PX;
+    font-size: 20px;
+    background: rgb(14, 127, 233);
+    color: #fff;
+
+
+  }
+ 
+.hidden{
+  display: none;
+
+}
+  #container {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    background:#0b1a2b;
+    z-index: 1000;
+    font-family: sans-serif;
+    color: #0b1a2b;
+    
+  }
+  
+
+.innerDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.innerDiv h3{
+    background-color: rgb(42, 134, 196);
+    color: #fff;
+    padding: 13px 16px;
+    margin-top: -1px;
+    
+    
+    
+}
+
+.iss_history{
+  width:100% ;
+  height: 100vh;
+  background: rgb(6, 80, 109);
+  margin-top:-20px ;
+  padding-top:20px ;
+  
+
+}
+
+.iss_history h2{
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.iss_data{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 100px;
+  padding-top: 50px;
+  height: 60vh;
+  margin: auto;
+  
+
+}
+.data{
+  background: rgb(8, 13, 49);
+  flex-basis: 30%;
+ color: #fff;
+  font-family: sans-serif;
+  
+
+
+}
+.data .imgbox{
+  width: 100%;
+
+}
+.imgbox img{
+  width: 100%;
+}
+.width{
+  margin-bottom: 50px;
+
+}
+.data h3{
+  text-align: center;
+}
+.data p{
+  padding: 30px;
+}
+/* back button  */
+.back{
+  padding: 10px ;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  display: inline-block;
+  font-size: 26px;
+  color: red;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+}
